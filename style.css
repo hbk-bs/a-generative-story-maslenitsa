@@ -63,6 +63,7 @@ figcaption {
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
+  align-items: flex-start; 
 }
 .column {
   display: flex;
