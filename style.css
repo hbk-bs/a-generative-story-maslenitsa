@@ -45,7 +45,6 @@ figure {
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 1rem;
 }
 
 figcaption {
@@ -99,6 +98,20 @@ footer {
   align-items: center;
   margin: 0 auto;
   padding-bottom: 4rem;
+}
+
+.meme img {
+    width: 10em; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 2em;
+}
+.text-container {
+  flex: 1; /* Take up remaining space in the row */
+}
+
+.text-container p {
+  margin-top: 0; /* Remove default margin */
+  line-height: 1.6; /* Adjust line height for readability */
 }
 
 hr {
